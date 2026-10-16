@@ -1,26 +1,16 @@
-@'
-# Sistem Informasi Pengajuan dan Monitoring Magang Mahasiswa Berbasis Web
+ 
+Add-Content README.md @"
 
-## Deskripsi
-Proyek ini merupakan prototipe sistem berbasis web untuk membantu mahasiswa mengajukan magang dan mengetahui status pengajuan.
+## Alur Pengajuan Magang
 
-## Tujuan
-Mempermudah proses pengajuan magang serta memberikan informasi status pengajuan kepada mahasiswa.
+1. Mahasiswa membuka halaman pengajuan magang.
+2. Mahasiswa mengisi nama lengkap dan perusahaan tujuan.
+3. Sistem memeriksa kelengkapan formulir.
+4. Pengajuan yang valid menampilkan status menunggu verifikasi.
+5. Admin melakukan verifikasi pengajuan sesuai prosedur.
 
-## Teknologi
-- PHP 8
-- HTML
-- CSS
-- Git dan GitHub
-- Vercel untuk deployment
+## Catatan Pengembangan
 
-## Fitur Prototipe
-- Formulir pengajuan magang
-- Input nama mahasiswa
-- Input nama perusahaan
-- Validasi formulir
-- Informasi status pengajuan
-
-## Pengembang
-Mahasiswa Program Studi D3 Teknik Komputer
-'@ | Set-Content README.md
+Versi saat ini merupakan prototipe. Penyimpanan data permanen dan
+verifikasi admin masih memerlukan pengembangan lanjutan.
+"@
